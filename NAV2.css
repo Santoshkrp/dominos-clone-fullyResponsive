@@ -1,0 +1,48 @@
+#nav2{
+    background-color: rgba(0,0,205);
+    justify-content: center;
+    align-items: center;
+padding: 0 50px;    
+font-size: 12px;
+padding-left: 50px;
+display: relative;
+    
+}
+#nav2 ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    padding: 0;
+    margin: 0px;
+}
+
+
+#nav2 ul li{
+    padding: 5px;
+}
+#nav2 ul li a:hover{
+    text-decoration: underline;
+}
+#nav2 ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px;
+}
+
+#nav2 ul li a::after{
+    content: '';
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:  1px 5px;
+    padding: 5px 0px;
+   
+    height: 15px;
+    width: 1px;
+   
+   }

@@ -1,0 +1,34 @@
+
+.master-container{
+    width: 100%;
+}
+
+#cont1, #cont2, #cont3, #cont4{
+    width: 48%;
+    
+}
+
+.middle{
+    
+    width: 80px;
+    height: 25px;
+    padding-top: 5px;
+    position: relative;
+    left: 8px;
+
+}
+#footer2{
+    font-size: 10px;
+}
+#footer1 , #footer2{
+    font-size: 8px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#footer2 li a{
+    font-size: 10px;
+}
+#footer2 a::after{
+    display: none;
+}

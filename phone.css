@@ -1,0 +1,59 @@
+.btn10{
+    display: none;
+}
+#navbar .btn{
+    font-size: 10px;
+}
+.list_item a{
+    font-size: 11px;
+   
+}
+
+#nav2 ul li a {
+    font-size: 10px;
+}
+
+
+#navbar{
+    position: relative;
+    top:0px;
+ 
+
+}
+#nav2{
+    position: relative;
+    top: 0px;
+
+}
+
+
+
+#section2{
+    position: relative;
+    top : 0px;
+    z-index: -1;
+}
+
+#container{
+    position: relative;
+    top:0px;
+}
+
+footer {
+    position: relative;
+    
+    top: 0px;
+}
+
+#footer1 , #footer2{
+    font-size: 5px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#footer2 li a{
+    font-size: 6px;
+}
+#footer2 a::after{
+    display: none;
+}
